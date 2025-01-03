@@ -19,6 +19,7 @@ function About(){
     }
     return(
         <div className="about-container">
+        <div>
             <h1>About</h1>
             <button onClick={backHandler}>Prev</button>
             <button onClick={clickHandler}>Contact</button>
@@ -26,6 +27,9 @@ function About(){
             <img src={require('./Mehak.png')} alt="MJ" />
             <ConfettiComponent/>
 
+            <img src="Mehak.png" alt="MJ" />
+            <ConfettiComponent/>
+        </div>
         </div>
         
     )
