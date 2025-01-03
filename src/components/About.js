@@ -25,6 +25,7 @@ function About(){
             <button onClick={frontHandler}>Next</button>
             <img src={require('./Mehak.png')} alt="MJ" />
             <ConfettiComponent/>
+
         </div>
         
     )
